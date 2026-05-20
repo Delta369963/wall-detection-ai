@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        Wall Detection AI
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>
+            Wall Detection AI
+        </h1>
+
+        <p class="subtitle">
+            Upload an indoor image and detect wall boundaries.
+        </p>
+
+        <div class="upload-box">
+
+            <input
+                type="file"
+                id="imageInput"
+                accept="image/*"
+            >
+
+            <button id="uploadBtn">
+                Detect Walls
+            </button>
+
+        </div>
+
+        <div class="preview-section">
+
+            <div class="image-card">
+
+                <h2>
+                    Original
+                </h2>
+
+                <img
+                    id="originalImage"
+                    src=""
+                    alt=""
+                >
+
+            </div>
+
+            <div class="image-card">
+
+                <h2>
+                    Prediction
+                </h2>
+
+                <img
+                    id="resultImage"
+                    src=""
+                    alt=""
+                >
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
