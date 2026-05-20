@@ -5,3 +5,4 @@ runs/
 *.cache
 *.zip
 datasets/
+models/*.pt
